@@ -1,0 +1,13 @@
+# dependencies
+node_modules
+
+# build output
+dist
+
+# secret keys
+.env
+.env.local
+*.local
+
+# logs
+*.log
