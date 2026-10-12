@@ -21,7 +21,7 @@ Search millions of movies and TV series, see full details, and save your favorit
 
 ## 🛠️ Run it on your computer
 ```bash
-git clone https://github.com/abdulsattarnangri7-desktoop/movie-search.git
+git clone https://github.com/abdulsattar1-dev/movie-search.git
 cd movie-search
 npm install
 # Create a .env file with your free OMDb key (omdbapi.com/apikey.aspx):
@@ -35,4 +35,4 @@ React 19 · Vite · React Router · Context API · OMDb API · localStorage
 
 ## 👤 Author
 **Abdul Sattar** — WordPress & React Developer
-[GitHub](https://github.com/abdulsattarnangri7-desktoop) · [Portfolio](http://abdulsattarportfolio.free.nf)
+[GitHub](https://github.com/abdulsattar1-dev) · [Portfolio](http://abdulsattarportfolio.free.nf)
