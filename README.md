@@ -1,16 +1,38 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Search millions of movies and TV series, see full details, and save your favorites.
 
-Currently, two official plugins are available:
+**🔗 Live demo:** _add your Vercel link here_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Live search with **debounce** (waits until you stop typing)
+- Filter by type: movies or series
+- **Load more** button for more results
+- Movie details page: plot, rating, cast and more
+- Add / remove **favorites** — saved in the browser
+- Multi-page app with React Router
 
-## React Compiler
+## 🧠 What I learned
+- React Router: routes, URL params (`/movie/:id`), links
+- Context API to share favorites across pages
+- Debouncing a search input with `useEffect` and `setTimeout`
+- Pagination with an API
+- Keeping an API key in an `.env` file
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Run it on your computer
+```bash
+git clone https://github.com/abdulsattarnangri7-desktoop/movie-search.git
+cd movie-search
+npm install
+# Create a .env file with your free OMDb key (omdbapi.com/apikey.aspx):
+# VITE_OMDB_KEY=your_key_here
+npm run dev
+```
+Then open http://localhost:5173
 
-## Expanding the Oxlint configuration
+## 📦 Built with
+React 19 · Vite · React Router · Context API · OMDb API · localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 👤 Author
+**Abdul Sattar** — WordPress & React Developer
+[GitHub](https://github.com/abdulsattarnangri7-desktoop) · [Portfolio](http://abdulsattarportfolio.free.nf)
