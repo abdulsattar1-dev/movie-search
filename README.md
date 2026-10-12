@@ -2,7 +2,7 @@
 
 Search millions of movies and TV series, see full details, and save your favorites.
 
-**🔗 Live demo:** _add your Vercel link here_
+**🔗 Live demo:** https://movie-search-hznm.vercel.app
 
 ## ✨ Features
 - Live search with **debounce** (waits until you stop typing)
